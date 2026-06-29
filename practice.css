@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.A, .B, .C
+{
+   height: 70px;
+   width: 200px;
+   border: solid black;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   background-color: aquamarine;
+}
+
+.A:hover,.B:hover,.C:hover{
+   background-color: cadetblue;
+}
